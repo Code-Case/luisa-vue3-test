@@ -24,11 +24,10 @@ export default {
         result: ''
       },
       config: {
-          responsive: [
-            { value: "Desktop", label: "Desktop", types: ["desktop"] },
-            { value: "Tablet", label: "Tablet", types: ["tablet"] },
-            { value: "Mobile", label: "Mobile", types: ["mobile"] },
-        ],
+        responsive: [
+          { page: "Desktop", types: ["desktop"] },
+          { page: "Mobile", types: ["tablet", "mobile"] },
+        ]
       }
     }
   },
